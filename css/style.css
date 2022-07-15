@@ -1,0 +1,59 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.introduction,
+.guide,
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+/*Introduction Section*/
+.introduction .title {
+  font-size: 3.125rem;
+}
+
+.coming-soon-link {
+  display: block;
+  text-decoration: underline;
+  color: aquamarine;
+}
+
+.introduction video {
+  display: block;
+}
+
+/*Guide Section*/
+
+.guide .title {
+  font-size: 2.635rem;
+  font-weight: 300;
+}
+
+.guide .description {
+  font-size: 1.3125rem;
+  color: gray;
+}
+
+/*Coming Soon Section*/
+
+.coming-soon .title {
+  font-size: 2.635rem;
+  font-weight: 300;
+}
+
+.coming-soon img {
+}
